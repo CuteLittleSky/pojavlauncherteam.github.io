@@ -81,8 +81,8 @@ Installing PojavLauncher is not the end for iOS devices. In order to play Minecr
 You can follow the `Sideloading (TrollStore)` or `Sideloading (Unjailbroken)` steps to sideload on a jailbroken iDevice. Regardless of the method, you will benefit from automatic JIT enabling and more memory allocation.
 :::
 
-::: details GitHub Actions
-**Requires a GitHub account in order to download.**
+::: details GitHub Actions(构建版本)
+**你需要登录Github账号才能下载.**  
 
 If you want the latest and greatest to test before the official release, you can grab a copy from GitHub Actions.
 
