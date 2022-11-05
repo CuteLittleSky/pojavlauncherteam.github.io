@@ -1,13 +1,13 @@
-# Supported Devices
+# 配置要求
 
 ## Android
 
-Minimum requirements:
+最低配置:
 - 32-bit (aarch32 or 32-bit/i386) CPU
 - Android 5.0
 - 1 GB(gigabyte) of RAM
 
-Recommended requirements:
+推荐配置:
 - 64-bit (aarch64 or 64-bit/x86_64) CPU
 - Android 8.0
 - 4 GBs(gigabytes) of RAM
@@ -19,13 +19,13 @@ Chromebooks have very similar system requirements, however Android version does 
 
 ## iOS
 
-Minimum requirements:
+最低配置:
 - Apple A8 SoC
    - The Apple A7 SoC is losing support in PojavLauncher 2.2.
 - iOS 12
 - 1 GB(gigabyte) of RAM
 
-Recommended requirements:
+推荐配置:
 - Apple A10/A10X Fusion SoC
 - iOS 14
 - 2 GBs(gigabytes) of RAM
