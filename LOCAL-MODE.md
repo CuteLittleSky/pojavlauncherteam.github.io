@@ -1,10 +1,10 @@
-# Offline mode is going places.
+# 关于离线模式
 
-Offline mode/cracked mod is now completely removed from the launcher.But you can still create offline account but you willn't be able to play Minecraft.For that you need Microsoft/Mojang account that has purchased the Minecraft Java edition.
+离线模式/cracked mod已完全从启动器中移除.你仍然可以创建离线账户但你将不能进行游戏.你需要 Microsoft/Mojang 账号来购买Minecraft Java版.
 
-**Pojavlauncher does't support any type of piracy or related action.**
+**Pojavlauncher不会支持任何形式的盗版活动**
 
-### To purchase Minecraft [Click Here](https://www.minecraft.net/).
+### 前往 [Minecraft.net](https://www.minecraft.net/)购买正版Minecraft.
 
 ## Don't tell anyone
-If you still want to play minecraft for free [Click Here](https://www.minecraft.net/en-us/get-minecraft)
+如果你想免费游玩Minecraft,[在此进行下载](https://www.minecraft.net/zh-cn/get-minecraft)或使用[中国版](https://mc.163.com/)
