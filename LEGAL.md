@@ -1,4 +1,4 @@
-# Is PojavLauncher legal and safe to use?
+# PojavLauncher的合规性及安全性
 
 Although in the past it may have not been the case, PojavLauncher is now legal in the eyes of Microsoft. We take care to prevent piracy with our launcher, and do not provide support for those who do not own the game.
 
