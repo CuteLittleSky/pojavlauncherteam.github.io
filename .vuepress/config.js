@@ -7,7 +7,7 @@ const { sidebar } = vuepressBar({
 
 module.exports = {
     title: 'PojavLauncher',
-	description: 'A flexible, fast and open-source Minecraft Java Edition launcher for Android and iOS',
+	description: '一个快速,便携且开源的手机Minecraft Java版启动器',
     head: [
 		['meta', {
 			name: 'theme-color',
@@ -66,11 +66,11 @@ module.exports = {
 
     themeConfig: {
         lastUpdated: true,
-        repo: 'https://github.com/PojavLauncherTeam/PojavLauncherTeam.github.io/',
+        repo: 'https://github.com/CuteLittleSky/PojavLauncherTeam.github.io/',
 		docsDir: '',
 		docsBranch: 'main',
 		editLinks: true,
-		editLinkText: 'Help us improve this page!',
+		editLinkText: '帮助我们完善此文档',
         logo: 'logo.png',
 
         sidebar: [
