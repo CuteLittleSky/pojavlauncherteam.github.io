@@ -1,14 +1,17 @@
-# Installing the launcher
+## 欢迎来到Pojavlauncher文档中文汉化界面  
+本文档最后同步时间2022/11/06,汉化/维护[天空导航 可爱小天空](https://skycraft.cn)
+关于Pojav使用,可访问[天空导航 PojavLauncher介绍页](https://mc.skycraft.cn/pojav)
+# 安装启动器
 
 ## Android
-Instructions for installing PojavLauncher on Android devices.
+在Android设备上获取PojavLauncher
 
 ::: details Google Play
-You can grab PojavLauncher from the Google Play Store [here.](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)
+你可以从Google Play Store获取PojavLauncher.[here.](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)
 :::
 
-::: details GitHub Actions
-**Requires a GitHub account in order to download.**
+::: details GitHub Actions(构建版本)
+**需要Github账号才能下载.**
 
 If you want the latest and greatest to test before the official release, you can grab a copy from GitHub Actions.
 
