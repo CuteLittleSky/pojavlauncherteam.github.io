@@ -4,8 +4,8 @@ icon: home
 title: PojavLauncher
 heroImage: /logo.png
 heroText: PojavLauncher
-tagline: 一个快速,便携且开源的适用于Android与IOS的Minecraft Java版的的启动器
-actionText: 快速开始 →
+tagline: 一个快速,便携且开源的手机Minecraft Java版启动器
+actionText: 开始 →
 actionLink: /INSTALL.md
 
 copyright: false
