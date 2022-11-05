@@ -80,7 +80,7 @@ module.exports = {
             
             children: [
 				{
-					title: 'Getting Started', // Subcategory for starting off
+					title: '开始', // Subcategory for starting off
 					collapsable: false, // Don't allow collapsing
 					sidebarDepth: 1,
 					children: [
@@ -92,12 +92,12 @@ module.exports = {
 					]
 				},
 				{
-					title: 'Frequently Asked Questions', // Subcategory for FAQ
+					title: '常见问题', // Subcategory for FAQ
 					collapsable: true, 
 					sidebarDepth: 1,
 					children: [
 						{
-							title: 'iOS-specific', // Subcategory for iOS FAQ
+							title: 'iOS问题', // Subcategory for iOS FAQ
 							collapsable: true, // Don't allow collapsing
 							sidebarDepth: 1,
 							children: [
@@ -106,7 +106,7 @@ module.exports = {
 							]
 						},
 						{
-							title: 'Android-specific', // Subcategory for Android FAQ
+							title: 'Android问题', // Subcategory for Android FAQ
 							collapsable: true, // Don't allow collapsing
 							sidebarDepth: 1,
 							children: [
@@ -118,7 +118,7 @@ module.exports = {
 		
 				},
 				{
-					title: 'Going further', // Subcategory for getting deeper in the launcher
+					title: '进阶', // Subcategory for getting deeper in the launcher
 					collapsable: true, 
 					sidebarDepth: 1,
 					children: [
@@ -136,7 +136,7 @@ module.exports = {
 
         },
         {
-            title: 'About PojavLauncher', // Category about the project
+            title: '关于PojavLauncher', // Category about the project
             collapsable: false,
             sidebarDepth: 1,
             children: [
@@ -149,7 +149,7 @@ module.exports = {
 
         },
 		{
-            title: 'Contributing', // Category about contributing
+            title: '做出贡献', // Category about contributing
             collapsable: false,
             sidebarDepth: 1,
             children: [
@@ -160,7 +160,7 @@ module.exports = {
 
         },
         {
-            title: 'Recent Updates', // Category about recent developments
+            title: '近期更新', // Category about recent developments
             collapsable: false,
             sidebarDepth: 1,
             children: [
