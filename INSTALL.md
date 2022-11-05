@@ -1,7 +1,3 @@
-欢迎来到Pojavlauncher文档中文汉化界面  
-本文档最后同步时间2022/11/06,维护[天空导航 可爱小天空](https://skycraft.cn)  
-关于Pojav使用,可访问[天空导航 PojavLauncher介绍页](https://mc.skycraft.cn/pojav)  
-
 # 安装PojavLauncher
 
 ## Android
