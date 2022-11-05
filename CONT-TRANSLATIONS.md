@@ -1,4 +1,4 @@
-# Contributing to the translation of PojavLauncher
+# 参与 PojavLauncher 的翻译工作
 
 * For the convenience of translators, we use [Crowdin](https://crowdin.com). 
 
