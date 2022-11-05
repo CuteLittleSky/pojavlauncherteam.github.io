@@ -1,4 +1,4 @@
-# Building from source
+# 通过源代码构建
 
 * Even though it is well-explained, building from source requires skill, internet and time.
 
