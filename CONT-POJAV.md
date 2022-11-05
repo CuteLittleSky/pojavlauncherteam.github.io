@@ -1,1 +1,1 @@
-# Contributing to PojavLauncher itself 
+# 为Pojavlauncher做出贡献
