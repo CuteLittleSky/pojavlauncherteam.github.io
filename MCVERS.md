@@ -1,4 +1,4 @@
-# Supported Minecraft versions
+# 支持的Minecraft版本
 
 With each new Minecraft release comes questions: how well does it play nice with PojavLauncher?
 
