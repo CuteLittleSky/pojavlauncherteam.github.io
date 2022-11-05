@@ -1,4 +1,4 @@
-# Contributing to this website
+# 为这个网站做出贡献
 
 We're always happy to accept help from our beloved community, and this website is no different. However, we want to cover some ground rules before you get started.
 
