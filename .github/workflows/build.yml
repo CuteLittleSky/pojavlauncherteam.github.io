@@ -1,4 +1,6 @@
 name: Build/Test/Deploy
+permissions:
+  contents: write
 on:
   push:
     branches-ignore:
@@ -27,7 +29,6 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.5
         if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main'}}
         with:
-          TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-pages
           FOLDER: docs
           CLEAN: true
