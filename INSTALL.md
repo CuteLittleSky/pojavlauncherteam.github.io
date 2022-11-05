@@ -1,17 +1,18 @@
 ## 欢迎来到Pojavlauncher文档中文汉化界面  
-本文档最后同步时间2022/11/06,汉化/维护[天空导航 可爱小天空](https://skycraft.cn)
+本文档最后同步时间2022/11/06,维护[天空导航 可爱小天空](https://skycraft.cn)
 关于Pojav使用,可访问[天空导航 PojavLauncher介绍页](https://mc.skycraft.cn/pojav)
-# 安装启动器
+
+# 安装PojavLauncher
 
 ## Android
-在Android设备上获取PojavLauncher
+在Android设备上安装PojavLauncher.
 
 ::: details Google Play
-你可以从Google Play Store获取PojavLauncher.[here.](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)
+你可以从[Google Play Store](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)获取PojavLauncher.
 :::
 
 ::: details GitHub Actions(构建版本)
-**需要Github账号才能下载.**
+**你需要登录Github账号才能下载.**
 
 If you want the latest and greatest to test before the official release, you can grab a copy from GitHub Actions.
 
@@ -36,12 +37,12 @@ If you want the latest and greatest to test before the official release, you can
 Once you have an Actions build downloaded, you can now unzip the file and install it as you would any other .apk file.
 :::
 
-::: details Source
+::: details 源代码
 **Instructions coming in a future revision to this website.**
 :::
 
 ## iOS
-Instructions for installing PojavLauncher on Apple devices.
+在iOS设备上安装PojavLauncher.
 
 ::: details Sideloading (TrollStore)
 We recommend TrollStore for all users if possible. This method allows for automatic JIT enabling, more memory allocation, and non-revoking installs.
@@ -105,6 +106,6 @@ If you want the latest and greatest to test before the official release, you can
 Once you have an Actions build downloaded, you can now unzip the file and use this .ipa for TrollStore or sideloading.
 :::
 
-::: details Source
+::: details 源代码
 **Instructions coming in a future revision to this website.**
 :::
