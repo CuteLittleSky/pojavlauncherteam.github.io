@@ -1,4 +1,4 @@
-# Optimizing the game
+# 对游戏进行优化
 
 There are lots of ways to optimize your Java Edition experience if it's being slow for you; or your device is just bad in general. From mods like OptiFine and Sodium to more complex stuff like JVM arguments, we'll cover all of them here.
 
