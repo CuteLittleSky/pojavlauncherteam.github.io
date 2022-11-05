@@ -1,4 +1,4 @@
-# Unsupported Mods
+# 不支持的模组
 PojavLauncher does not support every mod available to the Minecraft world. A non-exhaustive list is provided below:
 
 - [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) **(not supported by GL4ES, works with ANGLE and virglrenderer)**
