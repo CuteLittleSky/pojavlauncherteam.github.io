@@ -9,5 +9,5 @@ actionText: Get Started →
 actionLink: /INSTALL.md
 
 copyright: false
-footer: GPLv3 Licensed | Copyright © 2022, PojavLauncherTeam
+footer: GPLv3 Licensed | [豫ICP备2021034016号](https://beian.milt.gov.cn/) | [天空导航](https://skycraft.cn/)
 ---
