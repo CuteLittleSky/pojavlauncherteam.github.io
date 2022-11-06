@@ -33,7 +33,7 @@ If you want the latest and greatest to test before the official release, you can
 Once you have an Actions build downloaded, you can now unzip the file and install it as you would any other .apk file.
 :::
 
-::: details 源代码
+::: details 通过源代码构建
 **Instructions coming in a future revision to this website.**
 :::
 
