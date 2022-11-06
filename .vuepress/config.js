@@ -2,7 +2,7 @@ const { description } = require('../package')
 const vuepressBar = require('vuepress-bar');
 
 const { sidebar } = vuepressBar({
-  addReadMeToFirstGroup: false,
+  addReadMeToFirstGroup: true,
 });
 
 module.exports = {
