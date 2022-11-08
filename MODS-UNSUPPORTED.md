@@ -1,8 +1,8 @@
 # 不支持的模组
-PojavLauncher does not support every mod available to the Minecraft world. A non-exhaustive list is provided below:
+PojavLauncher并不完全支持所有Minecraft模组,以下提供了不完全的不支持模组列表:
 
-- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) **(not supported by GL4ES, works with ANGLE and virglrenderer)**
-- [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium/files) **(same as Sodium ^)**
+- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) **(不支持GL4ES渲染器, 支持ANGLE与virglrenderer渲染器)**
+- [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium/files) **(与Sodium一样^)**
 - [Chlorine](https://www.curseforge.com/minecraft/mc-mods/chlorine) 
 - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
 - [Scannable](https://www.curseforge.com/minecraft/mc-mods/scannable)
@@ -23,4 +23,4 @@ PojavLauncher does not support every mod available to the Minecraft world. A non
 - [LabyMod](https://www.labymod.net/en) **(only 1.8.9)**
 - [Meteor Client](https://meteorclient.com/)
 
-Most stuff pulled from [here](https://github.com/PojavLauncherTeam/PojavLauncher/issues/1948)
+大多数不支持模组列表从 [PojavLauncher#1948](https://github.com/PojavLauncherTeam/PojavLauncher/issues/1948) 获取
