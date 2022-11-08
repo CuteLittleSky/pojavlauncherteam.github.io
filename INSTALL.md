@@ -3,6 +3,10 @@
 ## Android
 在Android设备上安装PojavLauncher.
 
+::: ddetais 国内镜像下载(对于无法访问外网的国内用户)
+你可以从[天空导航 - Pojav下载页](https://mc.skycraft.cn/pojav/download)获取PojavLauncher.
+:::
+
 ::: details Google Play
 你可以从[Google Play Store](https://play.google.com/store/apps/details?id=net.kdt.pojavlaunch)获取PojavLauncher.
 :::
