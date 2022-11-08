@@ -16,11 +16,11 @@
 
 如果你想要使用测试版,你可以从Github Actions中获取最新构建版本.
 
-1. 打开 [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)仓库的[Actiins](https://github.com/PojavLauncherTeam/PojavLauncher/actions)界面.
+1. 打开 [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)仓库的[Actions](https://github.com/PojavLauncherTeam/PojavLauncher/actions)界面.
 
 ![](./images/Actions/android/Android-Actions-1.png)
 
-2. 在工作流菜单中选择"[Android CI](https://github.com/PojavLauncherTeam/PojavLauncher/actions/workflows/android.yml)".
+2. 在workflow菜单中选择"[Android CI](https://github.com/PojavLauncherTeam/PojavLauncher/actions/workflows/android.yml)".
 
 ![](./images/Actions/android/Android-Actions-2.png)
 
@@ -88,11 +88,11 @@ You can follow the `Sideloading (TrollStore)` or `Sideloading (Unjailbroken)` st
 
 如果你想要使用测试版,你可以从Github Actions中获取最新构建版本.
 
-1. 打开 [PojavLauncher_IOS](https://github.com/PojavLauncherTeam/PojavLauncher_IOS)仓库的[Actiins](https://github.com/PojavLauncherTeam/PojavLauncher_IOS/actions)界面.
+1. 打开 [PojavLauncher_IOS](https://github.com/PojavLauncherTeam/PojavLauncher_IOS)仓库的[Actions](https://github.com/PojavLauncherTeam/PojavLauncher_IOS/actions)界面.
 
 ![](./images/Actions/ios/iOS-Actions-1.png)
 
-2. 在工作流菜单中选择"[Development Build](https://github.com/PojavLauncherTeam/PojavLauncher/actions/workflows/)".
+2. 在workflow菜单中选择"[Development Build](https://github.com/PojavLauncherTeam/PojavLauncher/actions/workflows/)".
 ![](./images/Actions/ios/iOS-Actions-2.png)
 
 3. 3. 选择你想要下载的分支,并选择带有绿色或蓝色标记的构建.
