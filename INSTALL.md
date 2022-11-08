@@ -10,31 +10,33 @@
 ::: details GitHub Actions(构建版本)
 **你需要登录Github账号才能下载.**
 
-If you want the latest and greatest to test before the official release, you can grab a copy from GitHub Actions.
+如果你想要使用测试版,你可以从Github Actions中获取最新构建版本.
 
-1. Start off by heading to the [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher) repository and switching to the "Actions" tab.
+1. 打开 [PojavLauncher](https://github.com/PojavLauncherTeam/PojavLauncher)仓库的[Actiins](https://github.com/PojavLauncherTeam/PojavLauncher/actions)界面.
 
 ![](./images/Actions/android/Android-Actions-1.png)
 
-2. Next, select "Android CI" in the workflow selection menu.
+2. 在工作流菜单中选择"[Android CI](https://github.com/PojavLauncherTeam/PojavLauncher/actions/workflows/android.yml)".
 
 ![](./images/Actions/android/Android-Actions-2.png)
 
-3. Choose a build with a green or blue checkmark next to the branch you want to download.
-    - `v3_openjdk` will be the one for most people.
+3. 选择你想要下载的分支,并选择带有绿色或蓝色标记的构建.
+    - 对于绝大多数人来说,一般选择 `v3_openjdk` 分支.
 
 ![](./images/Actions/android/Android-Actions-3.png)
 
-4. Under "Artifacts", choose the build type you wish to download.
-    - `app-debug` will be the one for most people.
+4. 在 "Artifacts" 下方, 选择你需要下载的类型.
+    - `app-debug` 为包含Java8运行库的版本.
+    - `app-debug-noruntime` 为不包含Java8运行库的版本.
+    - 若想要运行1.16以上版本,需要额外安装Java17运行库.
 
 ![](./images/Actions/android/Android-Actions-4.png)
 
-Once you have an Actions build downloaded, you can now unzip the file and install it as you would any other .apk file.
+下载完成后,使用解压缩工具解压下载后的压缩包并像安装其他安卓应用程序(.apk)的方法安装它.
 :::
 
 ::: details 通过源代码构建
-**Instructions coming in a future revision to this website.**
+**请查阅[通过源代码构建]文档.**
 :::
 
 ## iOS
@@ -80,28 +82,27 @@ You can follow the `Sideloading (TrollStore)` or `Sideloading (Unjailbroken)` st
 ::: details GitHub Actions(构建版本)
 **你需要登录Github账号才能下载.**  
 
-If you want the latest and greatest to test before the official release, you can grab a copy from GitHub Actions.
+如果你想要使用测试版,你可以从Github Actions中获取最新构建版本.
 
-1. Start off by heading to the [PojavLauncher iOS](https://github.com/PojavLauncherTeam/PojavLauncher_iOS) repository and switching to the "Actions" tab.
+1. 打开 [PojavLauncher_IOS](https://github.com/PojavLauncherTeam/PojavLauncher_IOS)仓库的[Actiins](https://github.com/PojavLauncherTeam/PojavLauncher_IOS/actions)界面.
 
 ![](./images/Actions/ios/iOS-Actions-1.png)
 
-2. Next, select "Development Build" in the workflow selection menu.
-
+2. 在工作流菜单中选择"[Development Build](https://github.com/PojavLauncherTeam/PojavLauncher/actions/workflows/)".
 ![](./images/Actions/ios/iOS-Actions-2.png)
 
-3. Choose a build with a green or blue checkmark next to the branch you want to download.
-    - `main` will be the one for most people.
+3. 3. 选择你想要下载的分支,并选择带有绿色或蓝色标记的构建.
+    - 对于绝大多数人来说,一般选择 `main` 分支.
 
 ![](./images/Actions/ios/iOS-Actions-3.png)
 
-4. Under "Artifacts", choose `net.kdt.pojavlauncher.ipa`
+4. 在 "Artifacts" 下方, 选择 `net.kdt.pojavlauncher.ipa`
 
 ![](./images/Actions/ios/iOS-Actions-4.png)
 
-Once you have an Actions build downloaded, you can now unzip the file and use this .ipa for TrollStore or sideloading.
+下载完成后,使用解压缩工具解压下载后的压缩包并像安装其他应用程序(.ipa)的方法(TrollStore or sideloading)安装它.
 :::
 
-::: details 源代码
-**Instructions coming in a future revision to this website.**
+::: details 通过源代码构建
+**请查阅[通过源代码构建]文档.**
 :::
