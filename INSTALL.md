@@ -1,8 +1,8 @@
-# 安装PojavLauncher
+# 安装PojavLauncher启动器
 
 ## Android
-在Android设备上安装PojavLauncher.
-
+在Android设备上安装PojavLauncher.  
+> 一个小小的宣传栏 | [不妨来看看SKYCRAFT服务器? 1.20.4粘液科技单方块空岛生存服务器|免费飞行|基岩版互通优化|无尽|网络|异域花园|魔法水晶编年史等附属 QQ群:599951039 服务器IP:mc.skycraft.cn](https://docs.skycraft.cn/oneblock)  
 ::: detais 国内镜像下载(对于无法访问外网的国内用户)
 你可以从[天空导航 - Pojav下载页](https://mc.skycraft.cn/pojav/download)获取PojavLauncher.
 :::
@@ -46,7 +46,7 @@
 ## iOS
 在iOS设备上安装PojavLauncher.
 
-::: details Sideloading (TrollStore)
+::: details 测载 (TrollStore)
 We recommend TrollStore for all users if possible. This method allows for automatic JIT enabling, more memory allocation, and non-revoking installs.
 
 1. Follow the steps to install [TrollStore](https://github.com/opa334/TrollStore).
@@ -63,7 +63,7 @@ We recommend TrollStore for all users if possible. This method allows for automa
 You can now enjoy Minecraft: Java Edition on your iDevice!
 :::
 
-::: details Sideloading (Unjailbroken)
+::: details 测载 (Unjailbroken)
 **Requires an active Apple ID, that has signed into the [Developer Portal](https://developer.apple.com/account) at least once.**
 
 PojavLauncher supports being sideloaded with AltStore, Sideloadly, and Xcode. Instructions to use AltStore are below--for other options, refer to their documentation.
@@ -77,7 +77,7 @@ PojavLauncher supports being sideloaded with AltStore, Sideloadly, and Xcode. In
 Installing PojavLauncher is not the end for iOS devices. In order to play Minecraft itself, you will need to [enable JIT](./JIT.md).
 :::
 
-::: details Sideloading (Jailbroken)
+::: details 测载 (Jailbroken)
 **Currently, AppSync Unified is not supported.** There is an [issue](https://github.com/akemin-dayo/AppSync/issues/108) regarding the data directory when installed with AppSync.
 
 You can follow the `Sideloading (TrollStore)` or `Sideloading (Unjailbroken)` steps to sideload on a jailbroken iDevice. Regardless of the method, you will benefit from automatic JIT enabling and more memory allocation.
