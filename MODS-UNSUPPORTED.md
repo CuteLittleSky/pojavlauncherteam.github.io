@@ -1,8 +1,8 @@
 # 不支持的模组
 PojavLauncher并不完全支持所有Minecraft模组,以下提供了不完全的不支持模组列表:
 
-- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) **(not supported by GL4ES, works with ANGLE and virglrenderer)**
-- [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium/files) **(same as Sodium ^)**
+- [Sodium](https://www.curseforge.com/minecraft/mc-mods/sodium) **(不支持GL4ES,可使用ANGLE和virglrenderer)**
+- [Rubidium](https://www.curseforge.com/minecraft/mc-mods/rubidium/files) **(不支持GL4ES,可使用ANGLE和virglrenderer)**
 - [Chlorine](https://www.curseforge.com/minecraft/mc-mods/chlorine) 
 - [Create](https://www.curseforge.com/minecraft/mc-mods/create)
 - [Scannable](https://www.curseforge.com/minecraft/mc-mods/scannable) **(Works on 1.12)**
