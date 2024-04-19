@@ -111,6 +111,8 @@ module.exports = {
 							sidebarDepth: 1,
 							children: [
 								'PARSINGERROR', // "Error while parsing the package" error fix
+								'REFUSALOFINSTALL', // "App not installed" error fix (very uncommon)
+								'32BIT', // Platform and performance limitations (32bit)
 							]
 						},
 						// FAQ that applies to both platforms goes here
