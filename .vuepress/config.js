@@ -6,7 +6,7 @@ const { sidebar } = vuepressBar({
 });
 
 module.exports = {
-    title: 'PojavLauncher 启动器 中文文档',
+    title: 'PojavLauncher启动器 中文文档',
 	description: '一个快速,便携且开源的手机Minecraft Java版启动器',
     head: [
 		['meta', {
@@ -30,7 +30,8 @@ module.exports = {
         ["link", {
             rel: "'stylesheet",
             href: "/styles/website.css"
-        },]
+        },],
+	["meta",{ rel: "keywords",content: "Minecraft,我的世界,手机版,基岩版,Pojav,MC,我的世界论坛,MCBBS,我的世界中文论坛,FCL,HMCL,HMCLPE" }]
     ],
     base: '/',
     dest: './docs',
