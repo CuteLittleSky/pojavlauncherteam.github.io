@@ -1,7 +1,7 @@
 ---
 home: true
 icon: home
-title: PojavLauncher
+title: PojavLauncher 中文文档
 heroImage: /logo.png
 heroText: PojavLauncher
 tagline: 一个快速,便携且开源的手机Minecraft Java版启动器
