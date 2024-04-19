@@ -1,1 +1,2 @@
-# Dealing with iOS memory limits
+# 解决IOS内存限制  
+官方文档此页为空
