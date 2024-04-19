@@ -1,22 +1,22 @@
-# iOS and "JIT"
+# iOS 和 "JIT"
 
-## What is JIT and why do I care?
-JIT stands for **just-in-time compilation**, and (although not specific to Java), it serves as a method of executing Java code quicker then the alternatives, by compiling as-needed functions at runtime, rather than its slower alternatives to compile all code at runtime repeatedly or writing in a less portable, hardware-level format. It is the fastest method to running Minecraft: Java Edition on mobile devices, essentially required for a usable experience.
+## JIT 是什么，我为什么要关心它？
+JIT 代表**即时编译**，虽然不专属于 Java，但它作为一种在运行时执行 Java 代码的方法，比其他方式更快地执行，通过在运行时按需编译函数，而不是通过较慢的方法重复编译所有代码或以不太可移植的硬件级格式编写。它是在移动设备上运行《Minecraft：Java 版》的最快方法，基本上是可用体验所必需的。
 
-On Apple's mobile platforms (iOS, iPadOS, tvOS, in our case), a security feature known as **code-signing** is deeply rooted in the operation of the system. It serves to verify that applications haven't been tampered with after they were installed by a user, so that a malicious payload cannot be installed after-the-fact by a malicious someone. However, due to the process in which code-signing works, this prevents JIT from working properly as it works by reading code, modifying it, and then executing it in some fashion (whether that be by copying the code to a new location in memory, executing directly, or mirroring).
+在苹果的移动平台上（iOS、iPadOS、tvOS，在我们这里），一个名为**代码签名**的安全功能深深植根于系统的运作中。它用于验证应用程序在用户安装后未被篡改，以防止恶意负载在安装后由恶意人员安装。然而，由于代码签名的工作方式，这会阻止 JIT 正常工作，因为它通过读取代码、修改代码，然后以某种方式执行它来工作（无论是通过将代码复制到内存中的新位置、直接执行还是镜像）。
 
-## What does this mean for PojavLauncher?
+## 这对于 PojavLauncher 意味着什么？
 
-### Jailbroken devices
-Jailbroken device users don't need to worry about JIT requirements, as PojavLauncher is built to detect jailbreaks and automatically enable new features.
+### 越狱设备
+越狱设备用户不需要担心 JIT 要求，因为 PojavLauncher 被构建为检测越狱并自动启用新功能。
 
-### Unjailbroken devices
-Unjailbroken users can see two different outcomes, based on what they used to sideload PojavLauncher.
+### 未越狱设备
+未越狱设备用户可能会看到两种不同的结果，取决于他们用什么方式侧载 PojavLauncher。
 
 #### TrollStore
-If you used TrollStore to sideload PojavLauncher, good news: PojavLauncher takes advantage of the extended capabilities with TrollStore and automatically enables JIT when launched.
+如果你使用 TrollStore 来侧载 PojavLauncher，好消息：PojavLauncher 利用了 TrollStore 的扩展功能，并在启动时自动启用 JIT。
 
-#### Normal sideload
-If you sideload normally, you will need to enable JIT in some way. The most common method is to attach a debug server to the application while it's running - JITStreamer, AltStore, and Jitterbug all use this with their Jit enabling functions. The only downside to this method is that you are required to be connected to a WiFi network in order to enable JIT.
+#### 普通侧载
+如果你正常侧载，你需要以某种方式启用 JIT。最常见的方法是在应用程序运行时附加调试服务器 - JITStreamer、AltStore 和 Jitterbug 都使用这个功能来启用 JIT。这种方法的唯一缺点是你需要连接到 WiFi 网络才能启用 JIT。
 
-PojavLauncher has native integration with JITStreamer, and we recommend following the steps available [here](https://jitstreamer.com/?slide=home) to get started. Alternatively, you can use [AltStore](https://faq.altstore.io/how-to-use-altstore/altjit) or, for more advanced users, [Jitterbug](https://github.com/osy/Jitterbug/tree/main/Jitterbug). Methods not listed here are not confirmed or recommended by us for use with PojavLauncher.
+PojavLauncher 与 JITStreamer 有本地集成，我们建议按照 [这里](https://jitstreamer.com/?slide=home) 提供的步骤开始。或者，你可以使用 [AltStore](https://faq.altstore.io/how-to-use-altstore/altjit)，对于更高级的用户，也可以使用 [Jitterbug](https://github.com/osy/Jitterbug/tree/main/Jitterbug)。我们不确认或不建议使用此处未列出的方法与 PojavLauncher 一起使用。
