@@ -66,6 +66,7 @@ module.exports = {
 
     themeConfig: {
         lastUpdated: true,
+	nav: require("./config/nav"),
         repo: 'https://github.com/CuteLittleSky/PojavLauncherTeam.github.io/',
 		docsDir: '',
 		docsBranch: 'main',
