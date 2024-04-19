@@ -6,7 +6,7 @@ const { sidebar } = vuepressBar({
 });
 
 module.exports = {
-    title: 'PojavLauncher 中文文档',
+    title: 'PojavLauncher 启动器 中文文档',
 	description: '一个快速,便携且开源的手机Minecraft Java版启动器',
     head: [
 		['meta', {
