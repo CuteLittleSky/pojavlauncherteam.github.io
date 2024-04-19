@@ -6,7 +6,7 @@ module.exports = [
   },
   {
     text: "我的世界导航",
-    link: "/mc/"
+    link: "https://mc.cutelittlesky.cn/"
   },
   {
     text: "SKYCRAFT服务器IP:MC.SKYCRAFT.CN",
