@@ -132,9 +132,10 @@ module.exports = {
 						'CUSTOM-MC', // Installing custom versions of Minecraft
 						'CUSTOM-CONTROLS', // Customizing the on-screen controls
 						'OPTIMIZATION', // Optimizing the game
+						'MODPACKS', // Everything you need to know about Modpacks support
 						'ENV-VARS', // Using environment variables
 						'JAVA-ARGS', // Adding custom Java arguments
-						'DEBUG-LOG', // Debugging issues with the launcher
+						'DEBUG-LOG' // Debugging issues with the launcher
 					]
 		
 				},
