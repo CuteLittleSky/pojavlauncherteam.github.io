@@ -4,7 +4,7 @@
 
 ### 安装步骤：
 
-1. 如果您在 Android 上，请安装 [**MiXplorer**](https://forum.xda-developers.com/showpost.php?p=23109280&postcount=2) 和 [**MiX Archive**](https://play.google.com/store/apps/details?id=com.mixplorer.addon.archive)。
+1. 请安装 [**MiXplorer**](https://forum.xda-developers.com/showpost.php?p=23109280&postcount=2) 和 [**MiX Archive**](https://play.google.com/store/apps/details?id=com.mixplorer.addon.archive)。
 2. 复制您想要修改的 Minecraft 版本。
 3. 将自定义版本的文件夹、.jar 文件和 .json 文件重命名为您想要的自定义版本名称（例如，**foo**、**foo.jar**、**foo.json**）。
 4. 使用 MiX 的 **文本编辑器** 打开自定义版本的 .json 文件。
