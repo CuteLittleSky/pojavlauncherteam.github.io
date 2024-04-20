@@ -115,6 +115,9 @@ module.exports = {
 								'PARSINGERROR', // "Error while parsing the package" error fix
 								'REFUSALOFINSTALL', // "App not installed" error fix (very uncommon)
 								'32BIT', // Platform and performance limitations (32bit)
+								'FFMPEG', // Setting up FFMPEG, for Replay Mod
+								'SHADERS', // Look what we got here.
+								'RENDERERS' // I have no idea what they do and why PojavLauncher needs it.
 							]
 						},
 						// FAQ that applies to both platforms goes here
