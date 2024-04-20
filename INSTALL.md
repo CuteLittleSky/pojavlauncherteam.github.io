@@ -1,4 +1,4 @@
-# 安装PojavLauncher启动器
+# 安装PojavLauncher启动器 (Android/IOS)
 
 ## Android
 在Android设备上安装PojavLauncher.  
@@ -44,44 +44,42 @@
 **请查阅[通过源代码构建]文档.**
 :::
 
-## iOS
+## iOS / 苹果设备
 在iOS设备上安装PojavLauncher.
 
 ::: details 测载 (TrollStore)
-We recommend TrollStore for all users if possible. This method allows for automatic JIT enabling, more memory allocation, and non-revoking installs.
+如果可能的话，我们建议所有用户使用 TrollStore。这种方法允许自动启用 JIT，更多内存分配和非撤销安装。
 
-1. Follow the steps to install [TrollStore](https://github.com/opa334/TrollStore).
-    - TrollStore is compatible with the following iOS versions:
-        - 14.0 to 15.4.1
-        - 15.5 beta 1 to 15.5 beta 4
-        - 15.6 beta 1 to 15.6 beta 5
-
-2. Download the latest release from [here](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/latest/download/net.kdt.pojavlauncher.ipa).
-    - For a specific release, you can find its package on the [Releases](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases) page
-
-3. Locate where the .ipa was downloaded, tap the Share icon, and choose TrollStore in the list of options available.
-
-You can now enjoy Minecraft: Java Edition on your iDevice!
+按照以下步骤安装 [TrollStore](https://github.com/opa334/TrollStore).
+TrollStore 兼容以下 iOS 版本：
+14.0 至 15.4.1
+15.5 beta 1 至 15.5 beta 4
+15.6 beta 1 至 15.6 beta 5
+从 [这里](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/latest/download/net.kdt.pojavlauncher.ipa) 下载最新版本。
+对于特定版本，您可以在 [Releases](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases) 页面找到其安装包。
+找到下载的 .ipa 文件，点击共享图标，并在可用选项列表中选择 TrollStore。
+现在您可以在您的 苹果设备 上享受 Minecraft: Java 版本了！
 :::
 
 ::: details 测载 (Unjailbroken)
-**Requires an active Apple ID, that has signed into the [Developer Portal](https://developer.apple.com/account) at least once.**
 
-PojavLauncher supports being sideloaded with AltStore, Sideloadly, and Xcode. Instructions to use AltStore are below--for other options, refer to their documentation.
+**需要一个已登录至 [开发者门户网站](https://developer.apple.com/account) 至少一次的活跃 Apple ID。**
 
-1. Follow the official guide on installing AltStore itself:
-    - Instructions for [Mac](https://faq.altstore.io/getting-started/how-to-install-altstore-macos) and [Windows](https://faq.altstore.io/getting-started/how-to-install-altstore-windows)
+PojavLauncher 支持通过 AltStore、Sideloadly 和 Xcode 进行侧载。以下是使用 AltStore 的说明，其他选项请参考它们的文档。
+
+1. 按照官方指南安装 AltStore 本身：
+    - [Mac](https://faq.altstore.io/getting-started/how-to-install-altstore-macos) 和 [Windows](https://faq.altstore.io/getting-started/how-to-install-altstore-windows) 的说明
     
-2. Install the latest release using this [Install with AltStore](altstore://install?url=https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/latest/download/net.kdt.pojavlauncher.ipa) button.
-    - For a specific release, you can find its button on the [Releases](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases) page
+2. 使用此 [使用 AltStore 安装](altstore://install?url=https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases/latest/download/net.kdt.pojavlauncher.ipa) 按钮安装最新版本。
+    - 对于特定版本，您可以在 [Releases](https://github.com/PojavLauncherTeam/PojavLauncher_iOS/releases) 页面找到其按钮。
 
-Installing PojavLauncher is not the end for iOS devices. In order to play Minecraft itself, you will need to [enable JIT](./JIT.md).
+安装 PojavLauncher 并不是 iOS 设备的终点。为了玩 Minecraft 本身，您需要[启用 JIT](./JIT.md)。
 :::
 
 ::: details 测载 (Jailbroken)
-**Currently, AppSync Unified is not supported.** There is an [issue](https://github.com/akemin-dayo/AppSync/issues/108) regarding the data directory when installed with AppSync.
+**目前，不支持 AppSync Unified。** 使用 AppSync 安装时存在一个关于数据目录的 [问题](https://github.com/akemin-dayo/AppSync/issues/108)。
 
-You can follow the `Sideloading (TrollStore)` or `Sideloading (Unjailbroken)` steps to sideload on a jailbroken iDevice. Regardless of the method, you will benefit from automatic JIT enabling and more memory allocation.
+您可以按照 `侧载 (TrollStore)` 或 `侧载 (Unjailbroken)` 步骤在越狱的 iDevice 上进行侧载。无论使用哪种方法，您都将受益于自动启用 JIT 和更多内存分配。
 :::
 
 ::: details GitHub Actions(构建版本)
