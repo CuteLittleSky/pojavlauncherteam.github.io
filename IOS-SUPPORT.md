@@ -1,51 +1,50 @@
-# System support in future versions of PojavLauncher iOS
-*This announcement will be covering the next 3 releases of PojavLauncher iOS.*
+# PojavLauncher iOS 未来版本的系统支持
+*本公告将涵盖 PojavLauncher iOS 的接下来 3 个版本。*
 
-We've made some great strides with the iOS port of PojavLauncher: fixing [1.17 and newer](./OGL32.md), bringing [OpenJDK 8 to iOS](./JDK8.md), and now unveiling an [unjailbroken variant](./UNJAIL.md). However, all of the advancements we're making also stirred up old conversations, and we've come to a final conclusion: 
+我们在 iOS 版的 PojavLauncher 上取得了一些巨大的进展：修复了[1.17 及更新版本](./OGL32.md)的问题，将[OpenJDK 8 移植到 iOS](./JDK8.md)，现在还推出了一个[未越狱的变体](./UNJAIL.md)。然而，我们所做的所有进步也引发了以前的讨论，我们得出了最终的结论：
 
-**A future release of PojavLauncher will require iOS 14.0 and later.**
+**未来的 PojavLauncher 版本将需要 iOS 14.0 或更高版本。**
 
-## But why?
-Supporting iOS 12.0 and newer was a feat of engineering. However, it created multiple issues with feature support and user experience. We need to verify that our code works on iOS 12 before going ahead and compiling--if it does not, this complicates our development as we are faced with two options: dropping the feature on older versions, or importing external libraries. This causes slower development times, or lack of the feature entirely for our users.
+## 为什么？
+支持 iOS 12.0 及更新版本是一项工程壮举。然而，它带来了多个功能支持和用户体验方面的问题。我们需要在继续编译之前验证我们的代码在 iOS 12 上是否能够正常工作——如果不能，这会使我们的开发变得更加复杂，因为我们面临着两个选择：在较旧的版本上放弃该功能，或导入外部库。这会导致开发时间变慢，或者对我们的用户来说根本没有该功能。
 
-We also took a look at the userbase currently playing on PojavLauncher. Most of the users asking for support in our Discord server (which is many times more active than the Issues tab on the GitHub repository) are already running iOS 14.0 or newer, and a few cases of users on iOS 13. We barely see users running iOS 12 anymore, and now that PojavLauncher works unjailbroken, users can update to a newer release of iOS while still retaining Java Edition.
+我们还查看了目前在 PojavLauncher 上游玩的用户群体。在我们的 Discord 服务器上寻求支持的大多数用户（比 GitHub 存储库的 Issues 选项卡活跃得多）已经在运行 iOS 14.0 或更新版本，还有少数用户在运行 iOS 13。我们几乎不再见到运行 iOS 12 的用户了，现在 PojavLauncher 已经可以在未越狱的情况下运行，用户可以更新到较新版本的 iOS 而仍保留 Java Edition。
 
-This decision also comes after we understood that we don't really have the ability to test on these older versions anymore. Our devices are already running iOS 14.0+, and so are most of our testers.
+这一决定也是在我们了解到我们实际上已经没有能力在这些较旧的版本上进行测试之后做出的。我们的设备已经运行在 iOS 14.0+ 上，而且我们大多数的测试人员也是如此。
 
-## So what happens now?
-Things are going to get somewhat complex, but this document will sort these things out.
+## 那么现在会发生什么？
+事情将变得有些复杂，但本文将梳理这些事情。
 
-::: details PojavLauncher 2.1 - Recap
-PojavLauncher 2.1 was largely unchanged from its original plans. Just to recap, its key features:
+::: details PojavLauncher 2.1 - 总结
+PojavLauncher 2.1 与最初的计划基本保持不变。简单回顾一下，它的主要特点包括：
 
-* New split user interface to allow switching menus with ease
-* Rewritten preferences menu
-* Transitioned code to Objective-C from Java
-* First release with compatibility unjailbroken
-* Final release with jailbreak-specific packages
+* 新的分割用户界面，方便切换菜单
+* 重写的偏好设置菜单
+* 代码从 Java 转换为 Objective-C
+* 兼容未越狱的首个版本
+* 具体针对越狱的包的最终版本
 
-This release will also begin to warn users with 1GB of memory about the incoming end-of-life.
+此版本还将开始警告具有 1GB 内存的用户即将到来的生命周期终结。
 :::
-::: details PojavLauncher 2.2 - 1GB EOL
-PojavLauncher 2.2 was already planned to drop the Apple A7-equipped devices from support, due to performance and stability issues. This has been extended all devices with less than 1 gigabyte of total memory:
+::: details PojavLauncher 2.2 - 1GB 内存终止支持
+PojavLauncher 2.2 已经计划停止支持配备 Apple A7 芯片的设备，因为性能和稳定性问题。这已经扩展到了所有总内存少于 1GB 的设备：
 
 * iPhone 5s
 * iPhone 6
 * iPhone 6 Plus
-* iPad mini (2nd generation)
-* iPad mini (3rd generation)
-* iPad Air (1st generation)
-* iPod touch (6th generation)
+* iPad mini（第二代）
+* iPad mini（第三代）
+* iPad Air（第一代）
+* iPod touch（第六代）
 
-The `a7_allow` boolean in the preferences file has been replaced with `force_unsupported_launch` to reflect the change. As stated before, support for these devices will end 3 weeks after 2.2 releases, or immediately, for you, if this boolean is toggled.
+偏好设置文件中的 `a7_allow` 布尔值已被替换为 `force_unsupported_launch` 以反映这一变化。如前所述，对于这些设备的支持将在 2.2 发布后的 3 周内结束，或者，如果此布尔值已切换，则立即结束。
 
-This release will also begin to warn users on iOS 12 or 13 about the incoming end-of-life. If you are using a device that is capable of running iOS 14 or later, the warning will additionally tell you to upgrade to a newer version of iOS.
+此版本还将开始警告运行在 iOS 12 或 13 上的用户即将到来的生命周期终结。如果您使用的是能够运行 iOS 14 或更高版本的设备，警告还将告诉您升级到较新版本的 iOS。
 :::
-::: details PojavLauncher 2.3 - iOS 14.0+ begins
-PojavLauncher 2.3 will begin the end-of-life process for iOS 12/13 users. Taking a similar approach to 2.2, the `force_unsupported_launch` boolean can be toggled to override the behaviour of the launcher not opening. Support for these versions will end 3 weeks after 2.3 releases, or immediately, for you, if this boolean is toggled.
+::: details PojavLauncher 2.3 - iOS 14.0+ 开始
+PojavLauncher 2.3 将开始为 iOS 12/13 用户结束生命周期的过程。采取与 2.2 类似的方法，`force_unsupported_launch` 布尔值可以切换以覆盖启动器不打开的行为。对于这些版本的支持将在 2.3 发布后的 3 周内结束，或者，如果此布尔值已切换，则立即结束。
 
-As part of this deprecation, beta builds of PojavLauncher 2.4 will move to iOS 14.0 and newer APIs. Moving to these APIs may break the boolean's ability to continue launching the application.
+作为这一弃用的一部分，PojavLauncher 2.4 的 beta 构建将转移到 iOS 14.0 及更高版本的 API。转移到这些 API 可能会破坏布尔值继续启动应用程序的能力。
 :::
-::: details PojavLauncher 2.4 - iOS 14.0+ completed
-PojavLauncher 2.4 will complete the transition to iOS 14.0 APIs and be incompatible with iOS 12/13 without modification to the source code. 
-:::
+::: details PojavLauncher 2.4 - iOS 14.0+ 完成
+PojavLauncher 2.4 将完成向 iOS 14.0 API 的过渡，并且将在没有修改源代码的情
