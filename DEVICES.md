@@ -1,31 +1,31 @@
 # 配置要求
+- **最低要求** 意味着在安装了 [OptiFine](https://optifine.net/downloads) 并设置为最低设置的情况下，在 1.7.10 版本平均 FPS 达到 30 或以上。
+- **推荐要求** 意味着在安装了 [OptiFine](https://optifine.net/downloads) 并设置为最低设置的情况下，在 1.19.4 版本平均 FPS 达到 60 或以上。
 
 ## Android
 
-最低配置:
-- 32-bit (aarch32 or 32-bit/i386) CPU
+### 最低要求：
+- 高通骁龙 400（或同等性能的处理器）
 - Android 5.0
-- 1 GB(gigabyte) of RAM
+- 1GB 运行内存
 
-推荐配置:
-- 64-bit (aarch64 or 64-bit/x86_64) CPU
-- Android 8.0
-- 4 GBs(gigabytes) of RAM
-- GPU with "Vulkan" API (`v3_zink` and/or `vulkanmod` compatibility)
+### 推荐要求：
+- 高通骁龙 820（或同等性能的处理器），支持 Vulkan API
+- Android 8.0 及更新版本
+- 4GB 运行内存
 
 ### ChromeOS
-
-Chromebooks have very similar system requirements, however Android version does not matter, as long as you can install Android apps.
+- Chromebook 的系统要求与 Android 版本相同。
 
 ## iOS
 
-最低配置:
-- Apple A8 SoC
-   - The Apple A7 SoC is losing support in PojavLauncher 2.2.
-- iOS 12
-- 1 GB(gigabyte) of RAM
-
-推荐配置:
-- Apple A10/A10X Fusion SoC
+### 最低要求：
+- 苹果 A8 SoC
+   - 苹果 A7 SoC 在 PojavLauncher 2.3 中将失去支持。
 - iOS 14
-- 2 GBs(gigabytes) of RAM
+- 1GB 运行内存
+
+### 推荐要求：
+- 苹果 A14/A12X Bionic SoC
+- iOS 14
+- 4GB 运行内存
