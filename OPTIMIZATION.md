@@ -3,7 +3,7 @@
 如果您的 Java 版体验速度较慢，或者您的设备总体性能较差，有许多方法可以优化您的游戏体验。从像 OptiFine 和 Sodium 这样的模组到更复杂的 JVM 参数，我们将在这里涵盖所有内容。
 
 ## OptiFine
-OptiFine，之前被称为 Optimine 和 OptiFog；是由 sp614x、Insecs、Payton147 和 lacuravivid 创造的 Minecraft 修改版，其开发始于 2010 年 12 月 22 日；最初是关于推开雾气的一个修改版，但也包括其他功能；如 FPS 提升、遮挡剔除、隐藏几何体移除、纹理 Mipmap 和区块加载优化等。
+OptiFine，之前被称为 Optimine 和 OptiFog；是由 sp614x、Insecs、Payton147 和 lacuravivid 创造的一个优化模组，其开发始于 2010 年 12 月 22 日；最初是关于优化雾气的一个修改版，但也包括其他功能；如 FPS 提升、遮挡剔除、隐藏几何体移除、纹理 Mipmap 和区块加载优化等。
 
 ### 获取（并安装）OptiFine
 - 前往官方 OptiFine 网站；[optifine.net](https://optifine.net)。
