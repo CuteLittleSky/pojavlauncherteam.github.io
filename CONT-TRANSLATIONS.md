@@ -1,29 +1,29 @@
 # 参与 PojavLauncher 的翻译工作
 
-* For the convenience of translators, we use [Crowdin](https://crowdin.com). 
+* 为了方便多语言翻译，我们使用 [Crowdin](https://crowdin.com)。
 
-* Anyone can join the project on Crowdin and start translating right now.
+* 任何人都可以加入 Crowdin 上的 PojavLauncher 翻译项目并立刻开始翻译。
 
-[Join the project](https://crwd.in/pojavlauncher)
+[加入项目](https://crwd.in/pojavlauncher)
 
-## Getting started for newcomers on Crowdin
+## 对于 Crowdin 上的新手的入门指南
 
-* After you sign up on Crowdin and join the project, you can start translating the strings. 
+* 在你在 Crowdin 上注册并加入项目后，你可以开始翻译字符串。
 
-* First, on the project page, you should select the language you want to translate PojavLauncher into. 
+* 首先，在项目页面上，你应该选择你想要将 PojavLauncher 翻译成的语言。
 
-* Then, you will see the files to be translated. After the name of each file, you can see the translation progress of that file. The blue bar represents the progress of translated strings, and the green bar represents the progress of approved strings.
+* 然后，你将看到待翻译的文件。在每个文件的名称后面，你可以看到该文件的翻译进度。蓝色的条表示已翻译字符串的进度，绿色的条表示已审批字符串的进度。
 
-* Now you can click on the "Translate all" button and you will be moved to the translation editor. But first, Crowdin will suggest you to read useful tips for using the translation editor.
+* 现在你可以点击“全部翻译”按钮，你将被转到翻译编辑器。但是首先，Crowdin 会建议你阅读有关如何使用翻译编辑器的有用提示。
 
-## What to translate and what not to translate?
+## 应该翻译和不应该翻译的内容？
 
 ::: warning
-Things not to translate: PojavLauncher, codes like ```<1>, </0>, \n, %s, %.2f, %1$s, %@```, arrows like ◀, 
+不应翻译的内容：PojavLauncher、像 ```<1>, </0>, \n, %s, %.2f, %1$s, %@``` 这样的代码，以及像 ◀ 这样的箭头。
 :::
 
-* Except for the list above, you can translate anything else.
+* 除了上面列出的内容外，你可以翻译其他所有内容。
 
-## Proofreading
+## 校对
 
-* Proofreading of the strings is made by the language proofreader. Proofreaders are appointed by @Syjalo. Please don't ask him to approve the strings or appoint somebody as a proofreader. He will choose a suitable candidate in his opinion. Approved or most voted translation suggestions will be added to the launcher.
+* 字符串的校对由语言校对员完成。校对员由 @Syjalo 指定。请不要向他要求批准字符串或指定某人为校对员。他会根据自己的意见选择合适的候选人。已批准或得到最多投票的翻译建议将被添加到启动器中。
