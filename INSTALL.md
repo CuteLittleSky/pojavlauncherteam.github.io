@@ -5,8 +5,9 @@
 
 > 一个小小的宣传栏 | [不妨来看看SKYCRAFT服务器? 1.20.4粘液科技单方块空岛生存服务器|免费飞行|基岩版互通优化|无尽|网络|异域花园|魔法水晶编年史等附属 QQ群:599951039 服务器IP:mc.skycraft.cn](https://docs.skycraft.cn/oneblock)  
 
-国内镜像下载:  
-你可以从[天空导航 - Pojav下载页](https://mc.skycraft.cn/pojav/download)获取PojavLauncher.  
+**国内镜像下载:**  
+[**[点我下载(提取码4454)]**](https://url51.ctfile.com/d/33285351-59813893-452981?p=4454)
+你可以从[天空导航 - Pojav下载页](https://mc.skycraft.cn/pojav/download)获取PojavLauncher/HMCLPE.  
 
 
 ::: details Google Play
