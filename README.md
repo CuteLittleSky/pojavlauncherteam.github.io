@@ -9,5 +9,5 @@ actionText: 开始 →
 actionLink: /INSTALL.md
 
 copyright: false
-footer: GPLv3 Licensed | 豫ICP备2021034016号 | 天空导航 | SKYCRAFT.CN
+footer: GPLv3 Licensed | 豫ICP备2024067787号 | 天空导航 | SKYCRAFT.CN
 ---
