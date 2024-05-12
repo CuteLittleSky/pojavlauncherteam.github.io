@@ -3,7 +3,8 @@
 ## Android
 在Android设备上安装PojavLauncher.   
 
-> 一个小小的宣传栏 | [不妨来看看SKYCRAFT服务器? 1.20.4粘液科技单方块空岛生存服务器|免费飞行|基岩版互通优化|无尽|网络|异域花园|魔法水晶编年史等附属 QQ群:599951039 服务器IP:mc.skycraft.cn](https://docs.skycraft.cn/oneblock)  
+> 一个小小的宣传栏 | [不妨来看看SKYCRAFT服务器? 1.20.4粘液科技单方块空岛生存服务器|免费飞行|基岩版互通优化|无尽|网络|异域花园|魔法水晶编年史等附属 QQ群:599951039 服务器IP:mc.skycraft.cn](https://docs.skycraft.cn/oneblock)
+> 想要购买服务器? | [雨云 云服务器|虚拟主机|游戏云|CDN|云电脑|高性能14900K服务器 开MC服不二之选 注册即送5折优惠券](https://www.rainyun.com/SKYCRAFT_)  
 
 **国内镜像下载:**  
 [**[点我下载(提取码4454)]**](https://url51.ctfile.com/d/33285351-59813893-452981?p=4454)  
