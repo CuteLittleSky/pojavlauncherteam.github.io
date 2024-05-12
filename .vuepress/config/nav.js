@@ -15,5 +15,9 @@ module.exports = [
   {
     text: "加入SKYCRAFT服务器QQ群",
     link: "https://jq.skycraft.cn/"
+  },
+  {
+    text: "高性能服务器购买",
+    link: "https://www.rainyun.com/SKYCRAFT_"
   }
 ];
